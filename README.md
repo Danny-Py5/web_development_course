@@ -56,7 +56,7 @@ The focus is not only on writing code, but also on understanding **what the code
 
 Website and Software Developer
 
-GitHub: DANNYPY
+GitHub: [DANNYPY](https://github.com/Danny-Py5)
 
 ---
 
