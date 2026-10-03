@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="In this webpage you will be learning HTML Table and how to use it to organize data in rows and columns"
+    />
+    <meta name="author" content="Daniel Fatokun" />
+    <title>HTML Table</title>
+
+    <style>
+      html {
+        background-color: black;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>HTML Table</h1>
+
+    <!-- horizontal table header -->
+    <table border="1">
+      <caption>
+        Peoples' Data
+      </caption>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Country</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Daniel</td>
+          <td>22</td>
+          <td>Nigeria</td>
+        </tr>
+        <tr>
+          <td>Samuel</td>
+          <td rowspan="2">20</td>
+          <td>America</td>
+        </tr>
+        <tr>
+          <td>Ebunola</td>
+
+          <td>Nigeria</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <td>Total People</td>
+          <td colspan="2">2</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <!-- vertical table header -->
+    <hr />
+    <table border="1">
+      <caption>
+        Student Table
+      </caption>
+
+      <tbody>
+        <tr>
+          <th>Name</th>
+          <td>Daniel</td>
+          <td>Samuel</td>
+          <td>Victoria</td>
+        </tr>
+
+        <tr>
+          <th>Department</th>
+          <td>Computer Science</td>
+          <td>Micro Biology</td>
+          <td>Chemical engineering</td>
+        </tr>
+
+        <tr>
+          <th>Level</th>
+          <td>200l</td>
+          <td colspan="2">300l</td>
+          <!-- <td>300l</td> -->
+        </tr>
+
+        <tr>
+          <th>Faculty</th>
+          <td>Computing</td>
+          <td>Science</td>
+          <td>Science</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <th>Total students</th>
+          <td colspan="3">3</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
