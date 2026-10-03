@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="In this webpage you will learn about the HTML Form and the elements found inside of it."
+    />
+    <meta name="author" content="Daniel Fatokun" />
+    <title>Form</title>
+
+    <style>
+      html {
+        background-color: black;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="https://examplebackend.com">
+      <label for="name">Name:</label>
+      <br />
+      <input
+        name="username"
+        placeholder="Enter your name"
+        type="text"
+        required
+        id="name"
+      />
+      <br />
+      <br />
+
+      <label for="email">Email:</label>
+      <br />
+      <input
+        name="email"
+        placeholder="Enter your email"
+        type=""
+        required
+        id="email"
+      />
+      <br /><br />
+
+      <input
+        placeholder="Enter your Password"
+        name="password"
+        type="password"
+        id="password"
+      /><br /><br />
+
+      <label for="userAge">Age:</label>
+      <input
+        name="userAge"
+        type="number"
+        placeholder="Input your age"
+        id="userAge"
+      />
+
+      <br /><br />
+      <label for="date">Pick a Date:</label>
+      <input name="date" type="date" id="date" />
+
+      <br /><br />
+      <label for="">Pick a date and time</label>
+      <input name="datetime" type="datetime-local" />
+
+      <button type="submit">Submit</button>
+      <button type="reset">Clear form</button>
+      <br />
+      <br />
+
+      <label for="message">Message</label>
+      <textarea
+        name="message"
+        placeholder="Write your message here across multiple lines"
+        rows="10"
+        cols="30"
+        id="message"
+      ></textarea>
+
+      <br />
+      <br />
+
+      <label for="country">Select country:</label>
+      <!-- A dropdown with selected option -->
+      <select name="country" id="country">
+        <option value="canada">Canada</option>
+        <option value="america">America</option>
+        <option value="nigeria" selected>Nigeria</option>
+      </select>
+      <br />
+      <br />
+
+      <label for="country2">Select second Country:</label>
+      <!-- A dropdown with disabled option -->
+      <select name="country2" id="country2">
+        <option value="canada">Canada</option>
+        <option value="america">America</option>
+        <option value="nigeria" disabled>Nigeria</option>
+      </select>
+
+      <br /><br />
+
+      <!-- A dropdown with disabled options -->
+      <label for="country3">Select third country:</label>
+      <select name="country3" id="country3">
+        <option value="canada">Canada</option>
+        <option value="america" disabled>America</option>
+        <option value="nigeria" disabled>Nigeria</option>
+      </select>
+    </form>
+
+    <!-- <button>click me</button>
+
+    <button>Buy now</button>
+    <button>Login</button> -->
+  </body>
+</html>
