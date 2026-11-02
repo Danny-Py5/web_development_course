@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Selectors Part 2</title>
+
+    <style>
+      p,
+      h2,
+      .heading3 {
+        color: red;
+        font-size: 30px;
+      }
+      section p {
+        color: blue;
+      }
+
+      section .third-paragraph {
+        color: green;
+      }
+
+      button:hover {
+        background-color: green;
+      }
+      input:focus {
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <p>A paragraph text</p>
+    <h2>Heading level 2</h2>
+    <h3 class="heading3">Heading level 3</h3>
+
+    <section>
+      <h2>About us</h2>
+      <p>This is the content about us</p>
+      <p>This is the content about us</p>
+
+      <p class="third-paragraph">this is the third paragraph</p>
+    </section>
+
+    <button>Click me</button>
+    <input type="text" />
+  </body>
+</html>
