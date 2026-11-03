@@ -1,0 +1,21 @@
+/* Element selector */
+h1 {
+  color: red;
+}
+/* Class selector */
+.paragraph1 {
+  /* color: green; */
+  font-size: 20px;
+}
+/* this is a comment made using a shortcut */
+/* Pseudo Selector  */
+/* button:hover {
+  background-color: pink;
+} */
+
+p,
+h2,
+h4,
+h5 {
+  color: red;
+}
