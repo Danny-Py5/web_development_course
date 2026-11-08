@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* p {
+  color: green;
+} */
+body {
+  color: red;
+  background-color: black;
+}
+/* changing background color of a text */
+p {
+  background-color: blue;
+  /* color: transparent; */
+}
+/* Adding background color to a box */
+.box {
+  width: 200px;
+  height: 200px;
+  /* background-color: green; */
+  /* background-color: rgb(56, 210, 61); */
+  /* background-color: #22ff77; */
+  background-color: #00ff6221;
+  /* background-color: rgba(34, 255, 119, 0.137); */
+  /* background-color: transparent; */
+}
