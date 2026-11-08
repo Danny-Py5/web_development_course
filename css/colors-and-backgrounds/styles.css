@@ -27,3 +27,13 @@ p {
   /* background-color: rgba(34, 255, 119, 0.137); */
   /* background-color: transparent; */
 }
+.container {
+  width: 900px;
+  height: 300px;
+  background-color: rgba(0, 178, 190, 0.339);
+  margin-top: 16px;
+  background-image: url(cat.jpg);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
