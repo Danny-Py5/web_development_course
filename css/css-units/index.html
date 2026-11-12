@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Units</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .box {
+        width: 200px;
+        height: 200px;
+        background-color: green;
+      }
+      .parent {
+        width: 200px;
+        height: 100px;
+        background-color: lightblue;
+      }
+      .child {
+        width: 20%;
+        height: 80%;
+        background-color: orange;
+      }
+      body {
+        font-size: 16px;
+      }
+      p {
+        font-size: 4em;
+      }
+      /* html {
+        font-size: 20px;
+      } */
+      h2 {
+        font-size: 3rem;
+      }
+      h3 {
+        font-size: 5vw;
+      }
+      .box2 {
+        width: 20vw;
+        height: 200px;
+        background-color: blue;
+      }
+      .hero {
+        width: 100vw;
+        height: 100vh;
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box"></div>
+    <div class="parent">
+      <div class="child"></div>
+    </div>
+    <p>This is a paragraph text</p>
+    <h2>Heading level 2</h2>
+    <h3>Heading Level 3</h3>
+    <div class="box2"></div>
+
+    <div class="hero"></div>
+  </body>
+</html>
