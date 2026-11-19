@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 1rem;
+  /* font-size: 2rem;
+  font-family: cursive; */
+  font: 2rem cursive;
+}
+button {
+  font: inherit;
+  padding: 0.5rem 2rem;
+  border: none;
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  /* transition:
+    background-color,
+    color 0.25s ease; */
+  /* transition: all 0.25s ease; */
+  /* transition: 0.25s ease; */
+  transition: 0.25s;
+}
+button:hover {
+  background-color: rgb(0, 187, 0);
+  /* color: red; */
+}
+button:active {
+  background-color: rgb(0, 223, 0);
+}
+
+.sign-up-btn {
+  background-color: transparent;
+  color: green;
+  border: 2px solid green;
+}
+.sign-up-btn:hover {
+  background-color: rgba(13, 255, 13, 0.284);
+  color: green;
+}
+.sign-up-btn:active {
+  background-color: rgba(13, 255, 13, 0.117);
+}
